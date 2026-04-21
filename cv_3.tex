@@ -1,0 +1,243 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Freeman Curriculum Vitae
+% XeLaTeX Template
+% Version 2.0 (19/3/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@LaTeXTemplates.com)
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%!TEX program = xelatex
+% NOTICE: This template must be compiled with XeLaTeX, the line above should
+% ensure this happens automatically but if it doesn't you will need to specify 
+% XeLaTeX as the engine in your editor or script
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Font size, can be: 10pt, 11pt or 12pt
+
+\input{structure.tex} % Include the file that specifies the document structure
+
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
+% Example right footer:
+%\rfoot{\color{headings}{\sffamily Last update: \today. Typeset with Xe\LaTeX}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{paracol}{2} % Begin the multi-column environment
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CURRICULUM VITAE TEXT
+%----------------------------------------------------------------------------------------
+
+\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
+	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	\centering % Centre text
+	{\sffamily\Huge Miguel Gonzalez Calles}\\\medskip % Your name
+	{\Huge\color{headings}\cvtextfont Resume}
+}
+
+%----------------------------------------------------------------------------------------
+%	MAJOR RESEARCH PROJECT
+%----------------------------------------------------------------------------------------
+
+\section{About me}
+
+Full-stack software engineer with experience building enterprise-level platforms across hospitality, ERP, and scientific domains. 
+Passionate about clean architecture, scalable APIs, and mentoring junior developers.
+
+\medskip % Extra whitespace before the next section
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+%------------------------------------------------
+
+\workposition{Dec 2021 -- Present}
+{FT}
+{Preferred Hotels \& Resorts}
+{Software Engineer}
+{Maintain enterprise hospitality websites and develop RESTful APIs integrating Loyalty, Inventory, and Payment third-party services. Author technical documentation and mentor junior developers. \textit{(Remote)}}
+%------------------------------------------------
+
+\workposition{Apr 2025 -- Present}
+{Contract}
+{UW Provision}
+{Software Engineer}
+{Architecting and implementing a custom ERP solution, leading full migration from legacy infrastructure to a modern platform. \textit{(Hybrid)}}
+%------------------------------------------------
+
+\workposition{Aug 2024 -- Present}
+{PT}
+{Aerial \& Underground Construction Inc.}
+{IT Team Lead}
+{Led team building AUC Billing, a custom ERP covering project tracking to invoicing. Managed planning, code reviews, and technical decisions. \textit{(Remote)}}
+
+%------------------------------------------------
+
+\workposition{Jan 2021 -- Jul 2021}
+{PT}
+{Sibucan}
+{Front-end Developer}
+{Built responsive UI for a private-services marketplace using React.js, Next.js, and Tailwind CSS. Set up CI/CD with Heroku and GitHub Actions. \textit{(Remote)}}
+
+%------------------------------------------------
+
+\workposition{May 2020 -- Aug 2020}
+{PT}
+{Investigaci\'{o}n Operacional}
+{Back-end Developer}
+{Built a Django REST Framework back-end for an academic journal, handling peer review workflows, notifications, and automated routines. \textit{(On-site)}}
+
+\vspace{-\baselineskip}\medskip % Standardise the whitespace after this section and before the next (the custom command adds too much otherwise)
+
+\switchcolumn % Switch to the next paracol column
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	COLOURED CONTACT DETAILS BOX
+%----------------------------------------------------------------------------------------
+
+\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
+	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	\colorbox{shade}{ % Create the coloured box
+		\begin{supertabular}{p{0.05\linewidth}|p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
+			\raisebox{-1pt}{\faHome} & Kissimmee, FL \\ % Address
+			\raisebox{-1pt}{\faPhone} & +1 (786) 972-7134\\ % Phone number
+			\raisebox{0pt}{\small\faEnvelope} & \href{mailto:migueacalle98@gmail.com}{migueacalle98@gmail.com} \\ % Email address
+			\raisebox{-1pt}{\faLinkedin} & \href{https://www.linkedin.com/in/migueacalle98/}{linkedin.com/in/migueacalle98} \\ % Linked In profile
+			\raisebox{-1pt}{\faGithub} & \href{https://github.com/Migueacalle98}{github.com/Migueacalle98} \\ % GitHub profile
+			% See fontawesome.pdf in the fonts folder for all icons you can use
+		\end{supertabular}
+	}
+}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education} 
+
+% Blank \educationentry{} command to add another degree:
+
+%\educationentry{} % Duration
+%{} % Degree
+%{} % Honours, achievements or distinctions (e.g. first class honours)
+%{} % Department
+%{} % Institution
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+	
+	\educationentry{2022 -- 2023} % Duration
+	{BS, Computer Science} % Degree
+	{} % Honours, achievements or distinctions (e.g. first class honours)
+	{Bachelor of Science} % Department
+	{Florida International University} % Institution]
+	
+	%------------------------------------------------
+	\educationentry{2017 -- 2021} % Duration
+	{Computer Science Student} % Degree
+	{} % Honours, achievements or distinctions (e.g. first class honours)
+	{Mathematics and Computer Science Faculty} % Department
+	{University of Habana} % Institution]
+	
+	%------------------------------------------------
+
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+
+\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+	
+	%------------------------------------------------
+	
+	\tableentry{2020}{\textbf{Rising Star Award Nominee}}{}
+	\tableentry{}{\textit{Preferred Travel Group.}}{spaceafter}
+	%------------------------------------------------
+	
+	\tableentry{2020}{\textbf{Scientific day Award}}{}
+	\tableentry{}{\textit{University of Havana.}}{spaceafter}
+	
+	%------------------------------------------------
+	
+	\tableentry{2012}{\textbf{Finalist National Math Olympics}}{}
+	\tableentry{}{\textit{State Silver Medal, County Gold Medal.}}{spaceafter}
+	
+	%------------------------------------------------
+	
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	Skills/Concepts
+%----------------------------------------------------------------------------------------
+
+\section{Skills/Concepts} 
+
+% Example \tableentry{} command to add another line:
+
+%\tableentry{Heading}{Content}{spaceafter}
+
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+%------------------------------------------------
+
+\begin{enumerate}
+	\item SOLID Principles
+	\item Architectural Patterns and best practices
+	\item OO programming
+\end{enumerate}
+
+
+%----------------------------------------------------------------------------------------
+%	Languages/ Stacks 
+%----------------------------------------------------------------------------------------
+
+\section{Languages/ Stacks }
+
+% Example \longformdescription{} command to add another section:
+
+%\longformdescription{Heading}{Description}
+
+%------------------------------------------------
+\longformdescription{\textbf{WEB}}{ HTML, CSS, TailwindCSS, javascript, typescript, React. NextJS, React-Hook-Form, google-maps, Axios, react-query, and storybook. }
+
+\longformdescription{\textbf{Python}}{ Fast API, Scipy, numpy, Django and Django Rest Framework}
+
+\longformdescription{\textbf{ Databases}}{ MySQL databases and FireBase  }
+
+\longformdescription{\textbf{ .NET }}{ C\#, Visual Basic, Windows Forms, console applications and F\# }
+
+\longformdescription{\textbf{ Other}}{ AWS, GitHub, Heroku, Bitbucket }
+
+\end{paracol}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
