@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.20)  20 APR 2026 22:20
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.4.20)  20 APR 2026 22:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -854,12 +854,12 @@ Overfull \hbox (17.05826pt too wide) in paragraph at lines 148--168
  []
 
 
-Overfull \hbox (6.99161pt too wide) in paragraph at lines 229--230
+Overfull \hbox (6.99161pt too wide) in paragraph at lines 232--233
 \TU/EBGaramond(0)/m/n/10 NextJS, React-Hook-Form, google-maps, Axios, react-query,
  []
 
 
-Overfull \hbox (1.6816pt too wide) in paragraph at lines 235--236
+Overfull \hbox (1.6816pt too wide) in paragraph at lines 238--239
 \TU/EBGaramond(0)/m/n/10 C#, Visual Basic, Windows Forms, console applications and
  []
 
@@ -876,7 +876,7 @@ Package rerunfilecheck Info: File `cv_3.out' has not changed.
 Here is how much of TeX's memory you used:
  23974 strings out of 474878
  485077 string characters out of 5762516
- 1943627 words of memory out of 5000000
+ 1945627 words of memory out of 5000000
  45791 multiletter control sequences out of 15000+600000
  559120 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
