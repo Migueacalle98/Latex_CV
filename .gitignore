@@ -1,0 +1,32 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+
+# Compiled PDFs
+*.pdf
+
+# LaTeX intermediate files
+*.dvi
+*.ps
+
+# BibTeX
+*.bbl
+*.blg
+
+# Makeindex
+*.idx
+*.ilg
+*.ind
+
+# Misc
+*.aux
+*~
+*.bak
+*.swp
+.DS_Store
